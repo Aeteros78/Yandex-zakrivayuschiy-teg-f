@@ -7,4 +7,8 @@
     --main-font-family-inter: 'Inter-Variable';
     --main-font-family-press: 'PressStart2P-Regular';
 
+    /* Перменные цвета */
+
+    --accent-color: #000000;
+    --bg-color: #FFFFFF;
 }
