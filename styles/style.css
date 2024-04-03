@@ -21,4 +21,7 @@
   font-variation-settings: 'wght' 400;
   color: var(--accent-color);
   background-color: var(--bg-color);
+  background-image: var(--pattern-bg-img);
+  background-size: cover;
+  background-attachment: fixed;
 }
