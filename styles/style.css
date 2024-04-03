@@ -25,3 +25,44 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+header {
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid var(--accent-color);
+  margin-block: 100px;
+  margin-inline: 370px;
+  padding-block: 136px 25px;
+  padding-inline: 120.5px;
+  font-family: var(--main-font-family-press);
+}
+
+@media (width <= 375px) {
+  header {
+    margin-inline: 0;
+  }
+}
+
+.header__title {
+  margin-block-end: 20px;
+  font-size: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+}
+
+.header__subtitle {
+  margin-block-end: 25px;
+}
+
+.theme-menu__list {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
+.theme-menu__button {
+  
+  font-size: 14px;
+  line-height: 14px;
+}

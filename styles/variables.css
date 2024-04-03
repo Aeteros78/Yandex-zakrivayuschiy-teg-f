@@ -6,6 +6,7 @@
 
     --main-font-family-inter: 'Inter-Variable';
     --main-font-family-press: 'PressStart2P-Regular';
+    --font-size-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
 
     /* Перменные цвета */
 
