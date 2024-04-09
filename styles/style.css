@@ -118,3 +118,26 @@ header {
   gap: 27px;
   align-items: flex-end;
 }
+
+.article__button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__icon-button {
+  background-color: transparent;
+  border: none;
+}
+
+.card__like-button {
+  block-size: 38px;
+  inline-size: 130px;
+  border: 2px solid var(--accent-color);
+  background-color: transparent;
+}
+
+.button__text {
+  font-family: var(--main-font-family-press);
+  font-size: 14px;
+  line-height: 12.6px;
+}
