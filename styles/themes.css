@@ -11,7 +11,8 @@
 
     --main-font-family-inter: 'Inter-Variable';
     --main-font-family-press: 'PressStart2P-Regular';
-    --font-size-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-subtitle: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);
 
     /* Перменные цвета */
 
@@ -29,7 +30,8 @@
 
     --main-font-family-inter: 'Inter-Variable';
     --main-font-family-press: 'PressStart2P-Regular';
-    --font-size-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-subtitle: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);
 
     /* Перменные цвета */
 
@@ -48,7 +50,8 @@
 
     --main-font-family-inter: 'Inter-Variable';
     --main-font-family-press: 'PressStart2P-Regular';
-    --font-size-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-subtitle: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);
 
     /* Перменные цвета */
     
@@ -69,7 +72,8 @@
 
     --main-font-family-inter: 'Inter-Variable';
     --main-font-family-press: 'PressStart2P-Regular';
-    --font-size-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-title: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
+    --font-size-line-height-subtitle: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);
 
     /* Перменные цвета */
 
