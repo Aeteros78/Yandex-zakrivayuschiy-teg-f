@@ -26,6 +26,8 @@
   background-attachment: fixed;
 }
 
+/* Стили header */
+
 header {
   background-color: var(--bg-color);
   display: flex;
@@ -76,4 +78,43 @@ header {
   position: absolute;
   content: '▶';
   inset-inline-end: 100%;
+}
+
+/* Стили main */
+
+.content {
+  margin-inline: clamp(0rem, 34.742vw - 8.143rem, 23.125rem);
+}
+
+
+/* Стили article */
+
+.content__article_preparation_for_work {
+  font-size: 18px;
+  line-height: 21.78px;
+  margin-block-end: 52px;
+}
+
+.article__title {
+  font-variation-settings: 'wght' 700;
+  text-align: left;
+  font-size: inherit;
+
+}
+
+.article__img {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.content__article_preparation_for_work {
+  background-color: var(--bg-color);
+}
+
+.article__paragrapf__list {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-end;
 }
