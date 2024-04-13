@@ -17,6 +17,7 @@
     /* Перменные цвета */
 
     --accent-color: #00CC14;
+    --wrapper-text-stroke: 1px #000000;
     --bg-color: #000000;
     --pattern-bg-img: 
         repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px), 
@@ -36,6 +37,7 @@
     /* Перменные цвета */
 
     --accent-color: #000000;
+    --wrapper-text-stroke: 1px #FFFFFF;
     --bg-color: #FFFFFF;
     --pattern-bg-img: 
         repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), 
@@ -56,6 +58,7 @@
     /* Перменные цвета */
     
     --accent-color: #000000;
+    --wrapper-text-stroke: 1px #FFFFFF;
     --bg-color: #FFFFFF;
     --pattern-bg-img: 
         repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), 
@@ -78,6 +81,7 @@
     /* Перменные цвета */
 
     --accent-color: #00CC14;
+    --wrapper-text-stroke: 1px #000000;
     --bg-color: #000000;
     --pattern-bg-img: 
         repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px), 
