@@ -72,12 +72,30 @@ header {
   line-height: 14px;
   background-color: transparent;
   border: none;
+  position: relative;
+}
+
+.theme-menu__button:disabled {
+  pointer-events: none;
 }
 
 .theme-menu__button:disabled::before {
   position: absolute;
   content: '▶';
   inset-inline-end: 100%;
+}
+
+.theme-menu__button::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+
+.theme-menu__button:focus {
+  opacity: 0.5;
+  outline: none;
 }
 
 /* Стили main */
