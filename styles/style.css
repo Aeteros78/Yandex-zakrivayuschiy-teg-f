@@ -184,6 +184,8 @@ header {
   font-family: var(--main-font-family-press);
   font-size: 14px;
   line-height: 12.6px;
+  mix-blend-mode: difference;
+  position: relative;
 }
 
 /* Стили кнопки сохранить */
@@ -206,4 +208,30 @@ header {
   .button_save {
     flex-direction: column;
   }
+}
+
+.svg_floppy {
+  mix-blend-mode: difference;
+}
+
+/* Общие стили кнопок в main */
+
+.main__button {
+  position: relative;
+  overflow: hidden;
+  color: var(--button-text-color);
+}
+
+.main__button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.main__button::before {
+  content: '';
+  position: absolute;
+  background-color: var(--accent-color);
+  inset: 0;
+  translate: -100%;
+  transition: translate 0.5s ease-in-out;
 }

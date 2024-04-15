@@ -47,3 +47,13 @@
 .theme-menu__button:disabled::before {
     animation: arrow 0.5s ease-in-out infinite;
 }
+
+/* Анимации кнопок main */
+
+.main__button:focus {
+    transition: box-shadow 0.3s ease;
+}
+
+.main__button:hover::before {
+    translate: 0%;
+}
