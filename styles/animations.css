@@ -57,3 +57,7 @@
 .main__button:hover::before {
     translate: 0%;
 }
+
+.card__icon-button:focus-visible {
+    transition: border-color 0.3s ease;
+}

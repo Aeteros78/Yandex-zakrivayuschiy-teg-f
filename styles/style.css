@@ -165,12 +165,24 @@ header {
 
 .article__button {
   display: flex;
-  align-items: flex-end;
 }
 
 .card__icon-button {
   background-color: transparent;
   border: none;
+  block-size: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border-color: var(--accent-color);
 }
 
 .card__like-button {
@@ -178,6 +190,9 @@ header {
   inline-size: 130px;
   border: 2px solid var(--accent-color);
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button__text {
