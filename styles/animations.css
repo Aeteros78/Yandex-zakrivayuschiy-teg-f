@@ -54,6 +54,10 @@
     transition: box-shadow 0.3s ease;
 }
 
+.main__button::before {
+    transition: translate 0.5s ease-in-out;
+}
+
 .main__button:hover::before {
     translate: 0%;
 }

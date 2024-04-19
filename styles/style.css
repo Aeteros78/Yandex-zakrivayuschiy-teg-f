@@ -203,6 +203,10 @@ header {
   position: relative;
 }
 
+.sparks  {
+  opacity: 0;
+}
+
 /* Стили кнопки сохранить */
 
 .button_save {
@@ -248,5 +252,4 @@ header {
   background-color: var(--accent-color);
   inset: 0;
   translate: -100%;
-  transition: translate 0.5s ease-in-out;
 }
