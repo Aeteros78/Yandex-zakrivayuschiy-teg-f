@@ -65,3 +65,10 @@
 .card__icon-button:focus-visible {
     transition: border-color 0.3s ease;
 }
+
+/* Анимации сердца */
+
+.like-icon:hover .core {
+    
+}
+
