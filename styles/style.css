@@ -271,6 +271,11 @@ header {
   mix-blend-mode: difference;
 }
 
+dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Общие стили кнопок в main */
 
 .main__button {
