@@ -75,25 +75,26 @@
         </ul>
       </article>
       <button type="button"
-        onclick="window['dialog-id'].showModal();"
-        aria-controls="dialog-id" class="button_save main__button">
-          <svg class="svg_floppy" width="21" height="21">
+        onclick="window['floppy-dialog'].showModal();"
+        aria-controls="floppy-dialog" class="button_save main__button">
+          <svg class="svg_floppy" viewBox="0 0 21 21" height="21" width="21">
             <use href="./svg/floppy.svg#floppy"></use>
           </svg>
           <span class="button__text">
             Сохранить на память
           </span>
         </button>
-          <dialog class="button_save__dialog" id="dialog-id">
-              <svg class="svg_floppy" width="21" height="21">
+          <dialog class="button_save__dialog" id="floppy-dialog">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="svg_floppy" viewBox="0 0 39 39" height="39" width="39">
                 <use href="./svg/floppy.svg#floppy"></use>
               </svg>
-              <span class="button__text">
+              <p class="button__text popup_text">
                 Вставьте
                 дискету, чтобы продолжить
-              </span>
-              <button type="button" 
-                onclick="window['dialog-id'].close()">ок
+              </p>
+              <button class="main__button button_save_close_popup" type="button" 
+                onclick="window['floppy-dialog'].close()">
+                <span class="button__text">ок</span>
               </button>
           </dialog>
     </main>
