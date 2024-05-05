@@ -123,6 +123,9 @@ header {
   font-variation-settings: 'wght' 700;
   text-align: left;
   font-size: inherit;
+  line-height: inherit;
+  padding-inline-start: 10px;
+  padding-block: 3px;
 }
 
 .wrapper__text {
@@ -140,6 +143,7 @@ header {
     0 -1px 0 var(--bg-color),
     0 1px 0 var(--bg-color);
   opacity: 0.5;
+  z-index: 1;
 }
 
 @supports((text-stroke: var(--wrapper-text-stroke)) or (-webkit-text-stroke: var(--wrapper-text-stroke))) {
@@ -245,6 +249,17 @@ header {
 .like-icon.is-liked .contour {
   fill: var(--heart-click-color);
 }
+
+/* Фильтры для картинок */
+
+.image_ermitag {
+  filter: saturate(200%) contrast(150%);
+}
+
+.image_spas_na_krovi {
+  filter: saturate(300%) contrast(90%);
+}
+
 
 /* Стили кнопки сохранить */
 
