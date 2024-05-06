@@ -260,6 +260,10 @@ header {
   filter: saturate(300%) contrast(90%);
 }
 
+.image_winter_groove {
+  filter: saturate(350%) contrast(200%);
+}
+
 
 /* Стили кнопки сохранить */
 
