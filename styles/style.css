@@ -272,6 +272,10 @@ header {
   filter: hue-rotate(0.5turn) contrast(200%) saturate(50%);
 }
 
+.image_drawbridges {
+  filter: saturate(450%) contrast(80%) invert(100%);
+}
+
 /* Стили кнопки сохранить */
 
 .button_save {
