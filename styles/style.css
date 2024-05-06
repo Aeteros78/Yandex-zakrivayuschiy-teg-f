@@ -264,6 +264,9 @@ header {
   filter: saturate(350%) contrast(200%);
 }
 
+.image_engineering-castle {
+  filter: saturate(650%) contrast(70%);
+}
 
 /* Стили кнопки сохранить */
 
