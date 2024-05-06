@@ -107,7 +107,7 @@ header {
 
 /* Стили article */
 
-.content__article_preparation_for_work {
+.content__article_card {
   font-size: 18px;
   line-height: 21.78px;
   margin-block-end: 52px;
@@ -266,6 +266,10 @@ header {
 
 .image_engineering-castle {
   filter: saturate(650%) contrast(70%);
+}
+
+.image_neva_river {
+  filter: hue-rotate(0.5turn) contrast(200%) saturate(50%);
 }
 
 /* Стили кнопки сохранить */
