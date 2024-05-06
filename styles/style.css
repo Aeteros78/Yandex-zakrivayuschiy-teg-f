@@ -157,6 +157,13 @@ header {
 .article__img {
   block-size: 100%;
   inline-size: 100%;
+  min-block-size: 696px;
+}
+
+@media (width <= 375px) {
+  .article__img {
+    min-block-size: 375px;
+  }
 }
 
 .article__paragrapf__list {
@@ -278,6 +285,10 @@ header {
 
 .image_petergof {
   filter: saturate(850%) contrast(150%);
+}
+
+.image_pushkin {
+  filter: saturate(150%) contrast(200%);
 }
 
 /* Стили кнопки сохранить */
