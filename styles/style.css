@@ -276,6 +276,10 @@ header {
   filter: saturate(450%) contrast(80%) invert(100%);
 }
 
+.image_petergof {
+  filter: saturate(850%) contrast(150%);
+}
+
 /* Стили кнопки сохранить */
 
 .button_save {
