@@ -259,17 +259,18 @@
           </span>
         </button>
           <dialog class="button_save__dialog" id="floppy-dialog">
-              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="svg_floppy" viewBox="0 0 39 39" height="39" width="39">
-                <use href="./svg/floppy.svg#floppy"></use>
-              </svg>
-              <p class="button__text popup_text">
-                Вставьте
-                дискету, чтобы продолжить
-              </p>
-              <button class="main__button button_save_close_popup" type="button" 
-                onclick="window['floppy-dialog'].close()">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="svg_floppy" viewBox="0 0 39 39" height="39" width="39">
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <p class="button__text popup_text">
+              Вставьте
+              дискету, чтобы продолжить
+            </p>
+              <form method="dialog" class="popup__form_close">
+                <button class="main__button button_save_close_popup">
                 <span class="button__text">ок</span>
-              </button>
+                </button>
+              </form>
           </dialog>
     </main>
     <script src="./scripts/like.js"></script>

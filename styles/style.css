@@ -187,7 +187,6 @@
 
 .card__icon-button {
   background-color: transparent;
-  border: none;
   block-size: 38px;
   display: flex;
   align-items: center;
@@ -224,7 +223,7 @@
 
 /* Стили сердца */
 
-.sparks  {
+.sparks {
   opacity: 0;
 }
 
@@ -352,6 +351,9 @@
   padding-inline: 132.5px;
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
+}
+
+.popup__form_close {
   grid-column: 1/3;
 }
 
