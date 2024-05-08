@@ -49,6 +49,7 @@
   .header {
     width: 100%;
     font-weight: 400;
+    padding-block: 120px 25px;
   }
 }
 
@@ -71,9 +72,10 @@
 
 .theme-menu__list {
   display: flex;
-  gap: 14px;
+  gap: 10px;
   flex-direction: column;
   position: relative;
+  padding-inline-start: 10px;
 }
 
 .theme-menu__button {
@@ -105,9 +107,13 @@
 }
 
 .theme-menu__button:focus {
-  opacity: 0.5;
+  opacity: 0.6;
   outline: none;
 }
+
+.theme-menu__button:focus-visible {
+  outline: none;
+} 
 
 /* Стили main */
 
@@ -297,18 +303,28 @@
 
 .button_save__dialog {
   inline-size: 375px;
+  block-size: 195px;
   background-color: var(--bg-color);
   font-size: 14px;
   font-family: var(--main-font-family-press), fantasy;
   color: var(--accent-color);
   border: 2px solid var(--accent-color);
+  padding: 30px;
+}
+
+@media (width <= 375px) {
+  .button_save__dialog {
+    inline-size: 341px;
+  }
 }
 
 .button_save__dialog[open] {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 25px 20px;
+  justify-content: center;
   align-items: center;
-  grid-template-columns: min-content 1fr;
-  gap: 30px 20px;
 }
 
 .button_save__dialog[open]::backdrop {
@@ -327,16 +343,12 @@
 }
 
 .popup_text {
-  width: 70%;
+  width: 75%;
   line-height: 21px;
   text-transform: uppercase;
 }
 
 @media (width <= 375px) {
-  .popup_text {
-    width: 90%;
-  }
-
   .button_save_close_popup {
     padding-inline: 114.5px;
   }

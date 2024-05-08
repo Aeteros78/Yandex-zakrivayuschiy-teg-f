@@ -21,12 +21,13 @@
     transition: opacity 0.3s ease;
 }
 
-.theme-menu__button::after {
-    transition: color 0.3s ease;
+.theme-menu__button:not(:focus-visible)::after {
+    transform: scaleX(0);
 }
 
-.theme-menu__button:focus::after {
-    transition: width 0.3s ease;
+.theme-menu__button:focus-visible::after {
+    transition: transform 0.3s ease;
+    transform: scaleX(1);
     width: 100%;
 }
 
