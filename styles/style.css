@@ -52,6 +52,9 @@
   margin-block-end: 20px;
   font-size: var(--font-size-line-height-title);
   line-height: var(--font-size-line-height-title);
+}
+
+.header__title:focus-visible {
   outline: none;
 }
 
@@ -175,8 +178,11 @@
   align-items: flex-end;
 }
 
-.article__button {
+.article__button__list {
   display: flex;
+  justify-content: flex-end;
+  margin-inline-end: 25px;
+  margin-block-end: 25px;
 }
 
 .card__icon-button {
