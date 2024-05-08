@@ -28,7 +28,7 @@
 
 /* Стили header */
 
-header {
+.header {
   background-color: var(--bg-color);
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ header {
 }
 
 @media (width <= 375px) {
-  header {
+  .header {
     width: 100%;
     font-weight: 400;
   }
@@ -52,6 +52,7 @@ header {
   margin-block-end: 20px;
   font-size: var(--font-size-line-height-title);
   line-height: var(--font-size-line-height-title);
+  outline: none;
 }
 
 .header__subtitle {
