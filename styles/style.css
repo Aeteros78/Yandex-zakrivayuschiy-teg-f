@@ -235,7 +235,6 @@
   mix-blend-mode: difference;
   position: relative;
   color: var(--button-text-color);
-  text-transform: uppercase;
 }
 
 /* Фильтры для картинок */
@@ -303,7 +302,6 @@
 
 .button_save__dialog {
   inline-size: 375px;
-  block-size: 195px;
   background-color: var(--bg-color);
   font-size: 14px;
   font-family: var(--main-font-family-press), fantasy;
