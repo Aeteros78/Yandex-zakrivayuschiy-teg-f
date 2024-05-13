@@ -173,7 +173,6 @@
 .article__img {
   block-size: 100%;
   inline-size: 100%;
-  min-block-size: 696px;
 }
 
 @media (width <= 375px) {
@@ -235,40 +234,6 @@
   mix-blend-mode: difference;
   position: relative;
   color: var(--button-text-color);
-}
-
-/* Фильтры для картинок */
-
-.image_ermitag {
-  filter: saturate(200%) contrast(150%);
-}
-
-.image_spas_na_krovi {
-  filter: saturate(300%) contrast(90%);
-}
-
-.image_winter_groove {
-  filter: saturate(350%) contrast(200%);
-}
-
-.image_engineering-castle {
-  filter: saturate(650%) contrast(70%);
-}
-
-.image_neva_river {
-  filter: hue-rotate(0.5turn) contrast(200%) saturate(50%);
-}
-
-.image_drawbridges {
-  filter: saturate(450%) contrast(80%) invert(100%);
-}
-
-.image_petergof {
-  filter: saturate(850%) contrast(150%);
-}
-
-.image_pushkin {
-  filter: saturate(150%) contrast(200%);
 }
 
 /* Стили кнопки сохранить */
